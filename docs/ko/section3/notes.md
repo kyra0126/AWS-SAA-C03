@@ -82,7 +82,7 @@ Data Center ⊂ AZ (도시 안의 서로 떨어진 데이터 그룹) ⊂ Region 
 - 각 AZ는 서로 완전히 분리되어 있음 (한 AZ의 장애가 다른 AZ로 확산되지 않도록 설계됨). 하지만 고대역폭, 초저지연 네트워크로 연결되어 소통 가능
 
 ### 예시
-![AZ 예시](docs/section3/img/aws_region_ex.jpeg)
+![AZ 예시](https://github.com/kyra0126/AWS-SAA-C03/blob/a377ec054aee25d5345ac61f73cf6e0cf6389a14/docs/section3/img/aws_region_ex.jpeg)
 - Region: `ap-southeast-2` (시드니)
 - AZs: `ap-southeast-2a`, `2b`, `2c`
 - `2a` 안에는 데이터 센터가 2~3개 있을 수도 있음 (정확한 수는 공개되지 않음)
