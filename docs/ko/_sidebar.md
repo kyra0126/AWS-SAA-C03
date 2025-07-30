@@ -1,8 +1,8 @@
-* [🏠 Home](README.md)
+* [🏠 홈](README.md)
 
-* Section 1: Introduction to AWS
-  * [📘 Concept Notes](section1/notes.md)
+* Section 1
+  * [📘 이론 정리](section1/notes.md)
+  * [🧪 실습](section1/labs.md)
 
-* Section 3: Getting Started with AWS
-  * [📘 Concept Notes](section3/notes.md)
-  * [🧪 Labs](section3/labs.md)
+* Section 2
+  * [📘 이론 정리](section2/notes.md)

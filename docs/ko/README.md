@@ -1,4 +1,4 @@
-[🇺🇸 English](/README.md) | [🇰🇷 한국어](/ko/README.md)
+[🇺🇸 English](../README.md) | [🇰🇷 한국어](README.md)
 
 # ☁️ AWS SAA-C03 학습 노트 (🇰🇷)
 
@@ -6,19 +6,7 @@
 각 섹션별로 개념 요약 노트와 실습 결과를 기록하였습니다.
 
 ## 📅 주차별 섹션
-<div class="section-list">
 
-  <div class="section-card">
-    <h3>📘 Section 1 - AWS 소개</h3>
-    <p>📝 <a href="section1/notes.md">개념 노트</a></p>
-    <p>🧪 <a href="section1/labs.md">실습</a></p>
-  </div>
-
-  <div class="section-card">
-    <h3>📘 Section 3 - AWS 시작하기</h3>
-    <p>📝 <a href="section3/notes.md">개념 노트</a></p>
-    <p>📝 <a href="section3/labs.md">실습</a></p>
-  </div>
-
-</div>
-
+- [Section 1 - IAM과 AWS 기초](section1/notes.md)
+- [Section 1 실습](section1/labs.md)
+- [Section 2 - EC2, EBS](section2/notes.md)
