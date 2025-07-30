@@ -5,8 +5,18 @@
 This site contains weekly notes and lab results for the AWS Certified Solutions Architect Associate (SAA-C03) course.
 
 ## 📅 Weekly Sections
+<div class="section-list">
 
-- [Section 1 - IAM & AWS Basics](section1/notes.md)
-- [Section 1 Labs](section1/labs.md)
-- [Section 2 - EC2, EBS](section2/notes.md)
-- [Section 3 - S3 & Glacier](section3/notes.md)
+  <div class="section-card">
+    <h3>📘 Section 1 - Introduction to AWS</h3>
+    <p>📝 <a href="section1/notes.md">Concept Notes</a></p>
+    <p>🧪 <a href="section1/labs.md">Labs</a></p>
+  </div>
+
+  <div class="section-card">
+    <h3>📘 Section 3 - Getting Started with AWS</h3>
+    <p>📝 <a href="section3/notes.md">Concept Notes</a></p>
+    <p>🧪 <a href="section3/labs.md">Labs</a></p>
+  </div>
+
+</div>
