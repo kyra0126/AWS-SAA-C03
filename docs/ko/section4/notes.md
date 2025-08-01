@@ -56,7 +56,7 @@ AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 
 ### 예시
 
-![iam group ex](img/iam_group.jpeg)
+![iam group ex](../../section4/img/iam_group.jpeg)
 
 | 그룹명      | 구성원                   |
 |-------------|--------------------------|

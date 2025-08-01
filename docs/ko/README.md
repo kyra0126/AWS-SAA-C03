@@ -7,6 +7,23 @@
 
 ## 📅 주차별 섹션
 
-- [Section 1 - IAM과 AWS 기초](section1/notes.md)
-- [Section 1 실습](section1/labs.md)
-- [Section 2 - EC2, EBS](section2/notes.md)
+<div class="weekly-section-container">
+
+  <div class="weekly-section-card">
+    <h4>Section 1</h4>
+    <a href="#/ko/section1/notes.md">AWS 소개</a>
+  </div>
+
+  <div class="weekly-section-card">
+    <h4>Section 3</h4>
+    <a href="#/ko/section3/notes.md">AWS 시작하기</a><br>
+    <a href="#/ko/section3/labs.md">🧪 AWS Console 및 서비스 둘러보기</a>
+  </div>
+
+  <div class="weekly-section-card">
+    <h4>Section 4</h4>
+    <a href="#/ko/section4/notes.md">IAM 및 AWS CLI</a><br>
+    <a href="#/ko/section4/labs.md">🧪 IAM 및 AWS CLI</a>
+  </div>
+
+</div>
