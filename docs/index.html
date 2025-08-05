@@ -25,7 +25,18 @@
 			tocMaxLevel: 5,
 			target: "h2, h3, h4, h5, h6",
 			ignoreHeaders: ["<!-- {docsify-ignore} -->", "<!-- {docsify-ignore-all} -->"],
-		  }
+		  },
+      plugins: [
+    function (hook) {
+      hook.doneEach(function () {
+        const toc = document.querySelector('.docsify-plugin-toc');
+        const content = document.querySelector('.content');
+        if (toc && content && !content.querySelector('.docsify-plugin-toc')) {
+          content.appendChild(toc); // .content 안으로 옮김
+        }
+      });
+    }
+  ]
     };
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
