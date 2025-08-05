@@ -10,7 +10,7 @@ This repository is a structured documentation of weekly study notes, lab summari
 ## 🔗 GitHub Pages Access
 
 - 🇺🇸 [English Site](https://kyra0126.github.io/AWS-SAA-C03/)
-- 🇰🇷 [Korean Site](https://kyra0126.github.io/AWS-SAA-C03/ko/)
+- 🇰🇷 [Korean Site](https://kyra0126.github.io/AWS-SAA-C03/#/ko/README.md)
 
 ---
 
