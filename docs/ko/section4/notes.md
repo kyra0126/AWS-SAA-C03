@@ -6,8 +6,6 @@
 |--------|------|-----------|
 | 🌐 IAM    | 사용자/권한 관리 서비스 | 글로벌 서비스 (모든 리전에서 동일하게 동작) |
 
-<!-- toc -->
-
 **IAM = Identity and Access Management**
 
 AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
@@ -311,7 +309,3 @@ AWS IAM에서 자주 혼동되는 두 개념인 `Policy`(정책)와 `Permission`
 → 이 정책을 Alice에게 연결했을 때
 
 Permission: Alice는 EC2 인스턴스를 조회할 수 있음
-
-
-
-

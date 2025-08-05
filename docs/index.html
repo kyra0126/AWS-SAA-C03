@@ -9,8 +9,7 @@
 </head>
 <body>
   <div id="app">Loading...</div>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/toc.min.js"></script>
+  
   <script>
     window.$docsify = {
       name: 'AWS SAA-C03 Study Notes',
@@ -19,8 +18,17 @@
       alias: {
         '/.*/_sidebar.md': '_sidebar.md',
         '/ko/.*/_sidebar.md': 'ko/_sidebar.md'
+      },
+      toc: {
+      scope: '.markdown-section',
+      headings: 'h2, h3',
+      title: '📚 목차',
       }
     };
   </script>
+
+<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.3.1/dist/docsify-plugin-toc.min.js"></script>
+
 </body>
 </html>
