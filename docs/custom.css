@@ -60,25 +60,27 @@
     position: fixed;
     top: 80px;
     right: 30px;
-    width: 250px;
-    max-height: 80vh;
+    width: 240px;
+    max-height: 75vh;
     overflow-y: auto;
-    background-color: #1e1e1e;
+    background-color: #1f1f1f;
     padding: 1rem;
     border-radius: 8px;
     font-size: 0.9rem;
     color: white;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.4);
     z-index: 9999;
   }
   
   .toc-container .page_toc a {
-    color: #00cfff;
-    text-decoration: none;
     display: block;
-    margin-bottom: 0.5rem;
+    color: #00cfff;
+    margin-bottom: 0.4rem;
+    text-decoration: none;
   }
   
   .toc-container .page_toc a:hover {
     color: #ffb347;
   }
+  
   
