@@ -7,8 +7,9 @@ window.$docsify = {
       '/ko/_sidebar.md': 'ko/_sidebar.md'
     },
     toc: {
-      tocMaxLevel: 3,
-      target: 'h2, h3'
-    }
+        tocMaxLevel: 5,
+        target: 'h2, h3, h4, h5, h6',
+        ignoreHeaders:  ['<!-- {docsify-ignore} -->', '<!-- {docsify-ignore-all} -->']
+      },
   };
   
