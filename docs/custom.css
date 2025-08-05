@@ -56,69 +56,41 @@
     color: #ffb347;
   }
 
-  /* TOC 트리거 바 */
-.toc-hover-trigger {
-  position: fixed;
-  top: 110px;
-  right: 0;
-  width: 14px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 0;
-  cursor: pointer;
-  z-index: 9998;
-}
-.hover-bar {
-  width: 10px;
-  height: 2px;
-  background: #ccc;
-  border-radius: 2px;
-  transition: background 0.2s;
-}
-.hover-bar:hover {
-  background: #999;
+/* TOC 오른쪽 고정 스타일 */
+section > .sidebar + .content {
+  margin-right: 260px;
 }
 
-/* TOC 컨테이너 */
-.toc-container {
+.toc-nav {
   position: fixed;
   top: 100px;
-  right: 0;
+  right: 10px;
   width: 220px;
-  max-height: 70vh;
+  max-height: 75vh;
   overflow-y: auto;
-  background: white;
-  border-radius: 12px 0 0 12px;
-  box-shadow: -2px 4px 16px rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: -2px 4px 16px rgba(0, 0, 0, 0.1);
   padding: 1rem;
-  transform: translateX(140px);
-  opacity: 0;
-  transition: transform 0.3s ease, opacity 0.3s ease;
+  font-size: 0.9rem;
   z-index: 9999;
 }
-.toc-container:hover,
-.toc-hover-trigger:hover + .toc-container {
-  transform: translateX(0);
-  opacity: 1;
-}
 
-/* TOC 링크 스타일 */
-.page_toc a {
+.toc-nav a {
   display: block;
   color: #444;
   text-decoration: none;
-  margin: 0.3rem 0;
-  border-radius: 6px;
-  padding: 0.3rem 0.6rem;
-  transition: background 0.2s;
+  margin: 0.4rem 0;
+  padding: 0.2rem 0.4rem;
+  border-radius: 4px;
 }
-.page_toc a:hover {
-  background-color: #f0f0f0;
-}
-.page_toc a.active {
-  font-weight: bold;
+
+.toc-nav a:hover {
+  background: #f0f0f0;
   color: #007bff;
-  background-color: #e7f0ff;
+}
+
+.toc-nav .active {
+  font-weight: bold;
+  background: #e0f0ff;
 }
