@@ -1,4 +1,3 @@
-* [🏠 홈](README.md)
 
 * Section 1
   * [AWS 소개](section1/notes.md)

@@ -1,4 +1,4 @@
-[🇺🇸 English](./README.md) | [🇰🇷 한국어](./ko/README.md)
+[🇺🇸 English](#/README.md) | [🇰🇷 한국어](#/ko/README.md)
 
 # ☁️ AWS SAA-C03 학습 노트 (🇰🇷)
 

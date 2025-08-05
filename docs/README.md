@@ -1,4 +1,4 @@
-[🇺🇸 English](./README.md) | [🇰🇷 한국어](./ko/README.md)
+[🇺🇸 English](#/README.md) | [🇰🇷 한국어](#/ko/README.md)
 
 # ☁️ AWS SAA-C03 Study Notes (EN)
 
@@ -21,7 +21,7 @@ This site contains weekly notes and lab results for the AWS Certified Solutions 
 
   <div class="weekly-section-card">
     <h4>Section 4</h4>
-    <a href="#/section4/notes.md">🔹 S3 & Glacier</a><br>
+    <a href="#/section4/notes.md">IAM and AWS CLI</a><br>
     <a href="#/section4/labs.md">🧪 Labs</a>
   </div>
 
