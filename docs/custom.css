@@ -57,17 +57,18 @@
   }
 
   .docsify-plugin-toc {
-    position: fixed;
-    top: 100px;
-    right: 10px;
+    position: absolute; /* 고정 대신 콘텐츠 흐름에 따라 */
+    top: 120px;
+    right: 30px;
     width: 220px;
-    max-height: 75vh;
+    max-height: 70vh;
     overflow-y: auto;
     background: #ffffff;
     border-radius: 8px;
-    box-shadow: -2px 4px 16px rgba(0, 0, 0, 0.1);
+    box-shadow: -2px 4px 16px rgba(0, 0, 0, 0.08);
     padding: 1rem;
     font-size: 0.9rem;
-    z-index: 9999;
+    z-index: 999;
   }
+  
   
