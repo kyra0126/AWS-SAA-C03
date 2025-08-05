@@ -56,4 +56,29 @@
     color: #ffb347;
   }
   
+  .toc-container {
+    position: fixed;
+    top: 80px;
+    right: 30px;
+    width: 250px;
+    max-height: 80vh;
+    overflow-y: auto;
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    color: white;
+    z-index: 9999;
+  }
+  
+  .toc-container .page_toc a {
+    color: #00cfff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .toc-container .page_toc a:hover {
+    color: #ffb347;
+  }
   
