@@ -56,7 +56,7 @@
     color: #ffb347;
   }
 
-  .toc-nav {
+  .docsify-plugin-toc {
     position: fixed;
     top: 100px;
     right: 10px;
@@ -70,3 +70,4 @@
     font-size: 0.9rem;
     z-index: 9999;
   }
+  
