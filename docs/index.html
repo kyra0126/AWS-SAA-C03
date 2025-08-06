@@ -18,10 +18,11 @@
       repo: '',
       loadSidebar: true,
       alias: {
-        '/ko/.*/_sidebar.md': 'ko/_sidebar.md',
-        '/.*/_sidebar.md': '_sidebar.md',
+        '/ko/_sidebar.md': 'ko/_sidebar.md',      // /ko/ 일 때 sidebar 인식
+        '/ko/.*/_sidebar.md': 'ko/_sidebar.md',   // /ko/anything/_sidebar.md 도 인식
+        '/ko': 'ko/README.md',
         '/ko/(.*)': 'ko/$1',
-        '/ko': 'ko/README.md'
+        '/.*/_sidebar.md': '_sidebar.md' 
       },
       toc: {
 			tocMaxLevel: 5,
