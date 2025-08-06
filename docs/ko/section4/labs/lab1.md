@@ -23,7 +23,7 @@
 
 ### Set permissions
 
-[[slider]](../../../section4/img/lab/create2.png | ../../../section4/img/lab/create3.png |../../../section4/img/lab/create4.png)
+[[slider]](../../../section4/img/lab/create2.png || ../../../section4/img/lab/create3.png |../../../section4/img/lab/create4.png)
 
 
 1. 사용자 권한 부여
