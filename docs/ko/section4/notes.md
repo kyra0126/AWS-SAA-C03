@@ -1,4 +1,4 @@
-# Section 4 - IAM 및 AWS CLI
+# Section 4 - IAM 개념과 MFA 설정
 
 ## ☁️ 관련 AWS 서비스
 
@@ -9,6 +9,9 @@
 **IAM = Identity and Access Management**
 
 AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
+
+
+<br><br><br>
 
 ---
 
@@ -45,6 +48,8 @@ AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 
 </details>
 
+<br><br><br>
+
 ---
 
 ## 그룹 (Group)
@@ -66,8 +71,9 @@ AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 
 > 사용자는 꼭 그룹에 소속될 필요는 없으며, 한 사용자는 여러 그룹에 소속 가능
 
+<br><br><br>
+
 ---
-<br>
 
 ## 정책(Policy)
 
@@ -187,6 +193,8 @@ IAM 정책은 JSON 구조로 작성되며,
 > 권한(Permission)은 설계도에 따라 생성된 결과물
 ```
 
+<br><br><br>
+
 ---
 
 ## 권한 (Permission)
@@ -204,7 +212,7 @@ IAM 정책은 JSON 구조로 작성되며,
 
 > ❌ 너무 많은 권한 → 비용 폭탄, 보안 사고 발생 가능성
 
-## 권한(Permission)의 구조 (JSON 형식)
+### 권한(Permission)의 구조 (JSON 형식)
 
 ```json
 {
@@ -278,15 +286,17 @@ IAM 정책은 JSON 구조로 작성되며,
 
 Permission: Alice는 EC2 인스턴스를 조회할 수 있음
 ```
+<br><br><br>
 
 ---
+
 ## IAM 사용자(그룹) 보호 정책 2가지
 
-### 1. 비밀번호 정책 (Password Policy)
+### 1️⃣ 비밀번호 정책 (Password Policy)
 
 비밀번호 정책은 IAM 사용자 계정의 보안을 강화하기 위해 **비밀번호 기준**을 설정합니다.
 
-### 주요 설정 항목
+#### 주요 설정 항목
 
 - **최소 비밀번호 길이** 지정 가능
 - **문자 유형 요구**
@@ -299,7 +309,7 @@ Permission: Alice는 EC2 인스턴스를 조회할 수 있음
 - **이전 비밀번호 재사용 금지** 설정 가능
 
 
-### 🌟 2. MFA (Multi-Factor Authentication) 다중 인증
+### 🌟 2️⃣ MFA (Multi-Factor Authentication) 다중 인증
 
 비밀번호 외에 **추가적인 보안 요소**를 사용해 사용자 인증을 강화하는 방법
 
@@ -338,7 +348,7 @@ Permission: Alice는 EC2 인스턴스를 조회할 수 있음
 
 ---
 
-## 🌟 AWS에서 지원하는 MFA 장치 유형
+### 🌟 AWS에서 지원하는 MFA 장치 유형
 
 | 유형 | 장치 예시 | 설명 |
 |------|-----------|------|
