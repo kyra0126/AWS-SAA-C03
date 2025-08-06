@@ -56,11 +56,7 @@
 
 ## 사용자 및 그룹 확인
 
-<carousel>
-   <img src="../../../section4/img/lab/create7.png" />
-   <img src="../../../section4/img/lab/create8.png" />
-   <img src="../../../section4/img/lab/create9.png" />
-</carousel>
+[[slider]](section4/img/lab/create7.png | section4/img/lab/create8.png | section4/img/lab/create9.png)
 
 - Users 탭에서 `kyra` 확인
 - User Groups → `admin` 그룹 확인  
@@ -72,12 +68,7 @@
 
 ## IAM 사용자로 로그인하기
 
-<carousel>
-   <img src="../../../section4/img/lab/iam1.png" />
-   <img src="../../../section4/img/lab/iam2.png" />
-   <img src="../../../section4/img/lab/iam3.png" />
-   <img src="../../../section4/img/lab/iam4.png" />
-</carousel>
+[[slider]](section4/img/lab/iam1.png | section4/img/lab/iam2.png | section4/img/lab/iam3.png | section4/img/lab/iam4.png)
 
 1. AWS 계정 대시보드에서 로그인 URL 및 계정 ID 확인
 2. **계정 별칭(Alias)** 생성 (예: `abc-def-g`)  
@@ -122,10 +113,7 @@
 
 ## 3. 권한 재부여 - IAMReadOnlyAccess
 
-<carousel>
-   <img src="../../../section4/img/lab/make1.png" />
-   <img src="../../../section4/img/lab/make2.png" />
-</carousel>
+[[slider]](section4/img/lab/make1.png | section4/img/lab/make2.png)
 
 - **직접 정책 첨부**
   - `IAMReadOnlyAccess` 정책 부여
