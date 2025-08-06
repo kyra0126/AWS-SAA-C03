@@ -22,8 +22,10 @@
 
   <div class="weekly-section-card">
     <h4>Section 4</h4>
-    <a href="#/ko/section4/notes.md">IAM 및 AWS CLI</a><br>
-    <a href="#/ko/section4/labs.md">🧪 IAM 및 AWS CLI</a>
+    <a href="#/ko/section4/notes/note1.md">IAM 개념과 MFA 설정</a><br>
+    <a href="#/ko/section4/notes/note2.md">액세스 키와 AWS CLI · SDK 활용</a><br>
+    <a href="#/ko/section4/notes/note3.md">IAM Role과 보안 도구</a><br>
+    <a href="#/ko/section4/labs/lab1.md">🧪 IAM 및 AWS CLI</a>
   </div>
 
 </div>

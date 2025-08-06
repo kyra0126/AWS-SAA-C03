@@ -11,9 +11,7 @@
 AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 
 
-<br><br><br>
-
----
+<br><br>
 
 ## 사용자 (User)
 
@@ -48,9 +46,7 @@ AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 
 </details>
 
-<br><br><br>
-
----
+<br><br>
 
 ## 그룹 (Group)
 
@@ -58,9 +54,7 @@ AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 
 > 그룹은 사용자들의 묶음 (🌟 그룹 ⊄ 그룹, 사용자 ⊂ 그룹)
 
-
-
-![iam group ex](../../section4/img/iam_group.jpeg)
+![iam group ex](../../../section4/img/iam_group.jpeg)
 
 | 그룹명      | 구성원                   |
 |-------------|--------------------------|
@@ -71,9 +65,7 @@ AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 
 > 사용자는 꼭 그룹에 소속될 필요는 없으며, 한 사용자는 여러 그룹에 소속 가능
 
-<br><br><br>
-
----
+<br><br>
 
 ## 정책(Policy)
 
@@ -160,7 +152,7 @@ AWS에서 사용자, 그룹, 권한(정책)을 관리하는 서비스
 ## IAM 정책 상속
 사용자는 여러 그룹에 속할 수 있으며, 정책은 그룹 또는 사용자 단위로 연결가능
 
-![iam group ex](../../section4/img/iam_policy.jpeg)
+![iam group ex](../../../section4/img/iam_policy.jpeg)
 
 | 그룹명      | 구성원                         |
 |-------------|-------------------------------|
@@ -193,9 +185,7 @@ IAM 정책은 JSON 구조로 작성되며,
 > 권한(Permission)은 설계도에 따라 생성된 결과물
 ```
 
-<br><br><br>
-
----
+<br><br>
 
 ## 권한 (Permission)
 
@@ -286,9 +276,7 @@ IAM 정책은 JSON 구조로 작성되며,
 
 Permission: Alice는 EC2 인스턴스를 조회할 수 있음
 ```
-<br><br><br>
-
----
+<br><br>
 
 ## IAM 사용자(그룹) 보호 정책 2가지
 
@@ -352,7 +340,7 @@ Permission: Alice는 EC2 인스턴스를 조회할 수 있음
 
 | 유형 | 장치 예시 | 설명 |
 |------|-----------|------|
-| **1. 가상 MFA 디바이스** | ![Google Authenticator](../../section4/img/mfa1.jpeg)| - 스마트폰 앱 기반 MFA<br>- 하나의 기기로 여러 계정 관리 가능<br>- 설치 및 사용이 간편 |
-| **2. 하드웨어 MFA 토큰** | ![Gemalto Token](../../section4/img/mfa3.jpeg)| - 물리 장치로 MFA 코드 생성<br>- 인증 서버와 시간 동기화<br>- 3rd party (Gemalto) |
-| **3. GovCloud 전용 MFA** | ![SurePassID](../../section4/img/mfa4.jpeg) | - AWS GovCloud(US) 환경 전용 MFA 장치<br>- 별도 구매 필요<br>- 3rd party (SurePassID) |
-| **4. U2F 보안 키** | ![YubiKey](../../section4/img/mfa2.jpeg)| - USB 보안 키 기반 물리 장치<br>- 클릭 한 번으로 인증<br>- 강력한 피싱 방지 기능<br>- 하나의 키로 여러 루트 및 IAM 사용자 지원 가능<br>- 3rd party (Yubico) |
+| **1. 가상 MFA 디바이스** | ![Google Authenticator](../../../section4/img/mfa1.jpeg)| - 스마트폰 앱 기반 MFA<br>- 하나의 기기로 여러 계정 관리 가능<br>- 설치 및 사용이 간편 |
+| **2. 하드웨어 MFA 토큰** | ![Gemalto Token](../../../section4/img/mfa3.jpeg)| - 물리 장치로 MFA 코드 생성<br>- 인증 서버와 시간 동기화<br>- 3rd party (Gemalto) |
+| **3. GovCloud 전용 MFA** | ![SurePassID](../../../section4/img/mfa4.jpeg) | - AWS GovCloud(US) 환경 전용 MFA 장치<br>- 별도 구매 필요<br>- 3rd party (SurePassID) |
+| **4. U2F 보안 키** | ![YubiKey](../../../section4/img/mfa2.jpeg)| - USB 보안 키 기반 물리 장치<br>- 클릭 한 번으로 인증<br>- 강력한 피싱 방지 기능<br>- 하나의 키로 여러 루트 및 IAM 사용자 지원 가능<br>- 3rd party (Yubico) |
