@@ -11,21 +11,21 @@
 
   <div class="weekly-section-card">
     <h4>Section 1</h4>
-    <a href="section1/notes.md">AWS 소개</a>
+    <a href="/ko/section1/notes.md">AWS 소개</a>
   </div>
 
   <div class="weekly-section-card">
     <h4>Section 3</h4>
-    <a href="section3/notes.md">AWS 시작하기</a><br>
-    <a href="section3/labs.md">🧪 AWS Console 및 서비스 둘러보기</a>
+    <a href="/ko/section3/notes.md">AWS 시작하기</a><br>
+    <a href="/ko/section3/labs.md">🧪 AWS Console 및 서비스 둘러보기</a>
   </div>
 
   <div class="weekly-section-card">
     <h4>Section 4</h4>
-    <a href="section4/notes/note1.md">IAM 개념과 MFA 설정</a><br>
-    <a href="section4/notes/note2.md">액세스 키와 AWS CLI · SDK 활용</a><br>
-    <a href="section4/notes/note3.md">IAM Role과 보안 도구</a><br>
-    <a href="section4/labs/lab1.md">🧪 IAM 및 AWS CLI</a>
+    <a href="/ko/section4/notes/note1.md">IAM 개념과 MFA 설정</a><br>
+    <a href="/ko/section4/notes/note2.md">액세스 키와 AWS CLI · SDK 활용</a><br>
+    <a href="/ko/section4/notes/note3.md">IAM Role과 보안 도구</a><br>
+    <a href="/ko/section4/labs/lab1.md">🧪 IAM 및 AWS CLI</a>
   </div>
 
 </div>
